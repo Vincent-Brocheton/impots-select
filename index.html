@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
+    <title>Zorglub Impôts</title>
+</head>
+
+<body>
+    <form id="form" class="form-group">
+        <label for="genre"> Genre : </label>
+        <select class="form-control" name="genre" id="genre">
+            <option value="HOMME">Masculin</option>
+            <option value="FEMME">Feminin</option>
+            <option value="NON-BINAIRE">Non-binaire</option>
+        </select>
+        <label for="age">Âge :</label>
+        <input class="form-control" type="number" name="age" id="age">
+        <button class="btn btn-primary mt-3">Valider</button>
+    </form>
+
+    <div id="result"></div>
+
+</body>
+
+<script src="vendor/components/jquery/jquery.min.js"></script>
+<script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+
+</html>
